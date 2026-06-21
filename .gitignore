@@ -1,41 +1,58 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# InvoForge — .gitignore
+# Developer: Ritwik Das | ritwikdas100@gmail.com
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# ─── Dependencies ──────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
 
-# testing
-/coverage
+# ─── Next.js Build Output ──────────────────────────────────
+.next/
+out/
+build/
+dist/
 
-# next.js
-/.next/
-/out/
+# ─── Environment Variables ─────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
 
-# production
-/build
+# ─── Vercel ────────────────────────────────────────────────
+.vercel
 
-# misc
+# ─── TypeScript ────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── OS / Editor ───────────────────────────────────────────
 .DS_Store
-*.pem
+Thumbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# debug
+# ─── IDE ───────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# ─── Debug Logs ────────────────────────────────────────────
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# ─── Testing ───────────────────────────────────────────────
+coverage/
+.nyc_output/
 
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# ─── Misc ──────────────────────────────────────────────────
+*.log
+*.pid
+*.seed
+*.pid.lock
