@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Built for Digital Heroes](https://img.shields.io/badge/Built%20for-Digital%20Heroes-6366f1)](https://digitalheroesco.com)
 
-[Live Demo](https://invoforge.vercel.app) · [GitHub](https://github.com/ItsRitwik/invoforge) · [Portfolio](https://www.ritwik.online)
+[Live Demo](https://invoforge-kappa.vercel.app) · [GitHub](https://github.com/ItsRitwik/invoforge) · [Portfolio](https://www.ritwik.online)
 
 </div>
 
@@ -151,7 +151,7 @@ That's it. No environment variables. No API keys. No database setup.
    - Click **"New Project"**
    - Select the `invoforge` repository
    - Click **"Deploy"** — no environment variables needed
-   - Your app will be live at `https://invoforge.vercel.app` (or your custom domain)
+   - Your app will be live at `https://invoforge-kappa.vercel.app` (or your custom domain)
 
 3. **Verify Deployment**
    - ✅ Invoice form loads correctly

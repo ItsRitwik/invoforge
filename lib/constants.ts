@@ -7,7 +7,7 @@ import { GSTRate } from "@/types/invoice";
 
 export const APP_NAME = "InvoForge";
 export const APP_TAGLINE = "Generate Professional GST-Compliant Invoices in Seconds";
-export const APP_URL = "https://invoforge.vercel.app";
+export const APP_URL = "https://invoforge-kappa.vercel.app";
 export const DEVELOPER_NAME = "Ritwik Das";
 export const DEVELOPER_EMAIL = "ritwikdas100@gmail.com";
 export const DEVELOPER_GITHUB = "https://github.com/ItsRitwik";

@@ -81,7 +81,7 @@ All calculations (subtotal, GST, grand total) are memoized with `useMemo` to pre
 ---
 
 ## Live Demo
-🔗 https://invoforge.vercel.app
+🔗 https://invoforge-kappa.vercel.app
 
 ---
 

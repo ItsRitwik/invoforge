@@ -88,7 +88,7 @@ export function GSTCalculator() {
       `Total GST: ${formatCurrency(result.totalGST)}`,
       `Total (incl. GST): ${formatCurrency(result.totalInclusive)}`,
       ``,
-      `Calculated by InvoForge — invoforge.vercel.app`,
+      `Calculated by InvoForge — invoforge-kappa.vercel.app`,
     ].join("\n");
 
     try {

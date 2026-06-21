@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://invoforge.vercel.app"),
+  metadataBase: new URL("https://invoforge-kappa.vercel.app"),
   title: "InvoForge | Professional GST Invoice Generator",
   description:
     "Generate GST-compliant invoices, calculate taxes automatically and export professional PDF invoices instantly. Free tool for freelancers, agencies, and small businesses.",
@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     "PDF invoice",
     "InvoForge",
     "Ritwik Das",
+    "tags",
   ],
   authors: [{ name: "Ritwik Das", url: "https://www.ritwik.online" }],
   creator: "Ritwik Das",
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://invoforge.vercel.app",
+    url: "https://invoforge-kappa.vercel.app",
     siteName: "InvoForge",
     title: "InvoForge | Professional GST Invoice Generator",
     description:
